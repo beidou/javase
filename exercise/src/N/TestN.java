@@ -22,14 +22,6 @@ public class TestN {
                 p[i]=scanner.nextDouble();
                 counter++;
             }
-//            if(counter>x){
-//                b=false;
-//                break;
-//            }
-//            else{
-//                System.out.println("请继续输入");
-//            }
-//
             if(counter==x)
                 break;
         }
