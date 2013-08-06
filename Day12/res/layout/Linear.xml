@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent" android:layout_gravity="center" android:layout_weight="1">
+        <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="R"
+                android:id="@+id/button3" android:layout_gravity="center" android:layout_weight="1"
+                android:background="#ff0000"/>
+        <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="G"
+                android:id="@+id/button4" android:layout_weight="1" android:background="#00ff00"/>
+        <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="B"
+                android:id="@+id/button2" android:layout_gravity="center_horizontal|top" android:layout_weight="1"
+                android:background="#0000ff"/>
+        <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Y"
+                android:id="@+id/button" android:layout_gravity="center_horizontal|top" android:layout_weight="1"
+                android:background="#ffff00"/>
+    </LinearLayout>
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent" android:layout_gravity="center" android:layout_weight="1">
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:text="New Text"
+                android:id="@+id/textView" android:layout_gravity="left|center_vertical" android:layout_weight="1"/>
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:text="New Text"
+                android:id="@+id/textView2" android:layout_gravity="center" android:layout_weight="1"/>
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:text="New Text"
+                android:id="@+id/textView3" android:layout_gravity="left|center_vertical" android:layout_weight="1"/>
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:text="New Text"
+                android:id="@+id/textView4" android:layout_gravity="center" android:layout_weight="1"/>
+    </LinearLayout>
+</LinearLayout>
